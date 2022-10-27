@@ -60,7 +60,15 @@ body {
     font-weight: 500;
     line-height: 24px;
     background-color: #1a2236;
-    color: #ffffff;
+    color: #fff;
+  }
+
+  .headline-cont button:hover,
+  .headline-cont button:focus {
+    cursor: pointer;
+    border: 1px solid #1a2236;
+    background-color: #e5e5e5;
+    color: #1a2236;
   }
 
   .headline-img {
