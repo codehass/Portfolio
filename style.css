@@ -63,6 +63,14 @@ body {
     color: #fff;
   }
 
+  .headline-cont button:hover,
+  .headline-cont button:focus {
+    cursor: pointer;
+    border: 1px solid #1a2236;
+    background-color: #e5e5e5;
+    color: #1a2236;
+  }
+
   .headline-img {
     height: 160px;
     width: 320px;
