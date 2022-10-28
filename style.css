@@ -2,7 +2,6 @@ body {
   margin: 0;
 }
 
-/*  Small devices (tablets, 768px and up)  */
 @media (max-width: 767px) {
   .container {
     width: 100%;
@@ -128,8 +127,6 @@ body {
     text-decoration: none;
     background-color: #98dede;
     color: #1a2236;
-    /* width: 69px;
-    height: 20px; */
     padding: 6px 10px;
   }
 
@@ -142,6 +139,15 @@ body {
     color: #fff;
     border: 1px solid #fff;
   }
+
+  .tech img {
+    width: 102px;
+    height: 102px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
   .project-butt:hover,
   .project-butt:focus {
     cursor: pointer;
@@ -154,6 +160,11 @@ body {
     height: 15.35px;
   }
 
+  .about-butt img {
+    width: 24px;
+    height: 24px;
+  }
+
   .project-butt img:hover,
   .project-butt img:focus {
     color: #1a2236;
@@ -162,7 +173,27 @@ body {
   .project-butt p {
     font-size: 16px;
     padding-right: 10px;
-    margin: 10px 0px 10px 10px;
+    margin: 10px 0 10px 10px;
+  }
+
+  .about-text p {
+    height: 126px;
+    width: 288px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 32px;
+  }
+
+  .about-butt p {
+    width: 86px;
+    height: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
   }
 
   .project-butt p:hover,
@@ -171,16 +202,11 @@ body {
   }
 
   .about {
-    width: 320px;
     margin: 56px 16px 50px 16px;
     width: 288px;
     display: flex;
     flex-direction: column;
     gap: 16px;
-  }
-
-  .about {
-    width: 288px;
   }
 
   .about-text h2 {
@@ -194,16 +220,6 @@ body {
     margin-top: 0;
   }
 
-  .about-text p {
-    height: 126px;
-    width: 288px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    margin-bottom: 32px;
-  }
-
   .about-butt {
     width: 288px;
     height: 50px;
@@ -215,21 +231,6 @@ body {
     align-items: center;
     gap: 20px;
     margin-bottom: 40px;
-  }
-
-  .about-butt p {
-    width: 86px;
-    height: 24px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    margin: 0;
-  }
-
-  .about-butt img {
-    width: 24px;
-    height: 24px;
   }
 
   .tech {
@@ -250,14 +251,6 @@ body {
     background-color: #febf52;
   }
 
-  .tech img {
-    width: 102px;
-    height: 102px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-  }
-
   .tech div h3 {
     color: #fff;
     font-family: "Poppins", sans-serif;
@@ -276,7 +269,7 @@ body {
   .tech div ul {
     display: flex;
     flex-direction: column;
-    margin: 0px 0px 0px 60px;
+    margin: 0 0 0 60px;
     padding-left: 0;
     width: 178px;
     height: 135px;
