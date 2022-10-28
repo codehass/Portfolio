@@ -142,15 +142,151 @@ body {
     color: #fff;
     border: 1px solid #fff;
   }
+  .project-butt:hover,
+  .project-butt:focus {
+    cursor: pointer;
+    border: 1px solid #1a2236;
+    background-color: #e5e5e5;
+  }
 
   .project-butt img {
     width: 20.57px;
     height: 15.35px;
   }
 
+  .project-butt img:hover,
+  .project-butt img:focus {
+    color: #1a2236;
+  }
+
   .project-butt p {
     font-size: 16px;
     padding-right: 10px;
     margin: 10px 0px 10px 10px;
+  }
+
+  .project-butt p:hover,
+  .project-butt p:focus {
+    color: #1a2236;
+  }
+
+  .about {
+    width: 320px;
+    margin: 56px 16px 50px 16px;
+    width: 288px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .about {
+    width: 288px;
+  }
+
+  .about-text h2 {
+    height: 50px;
+    width: 134px;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+
+  .about-text p {
+    height: 126px;
+    width: 288px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 32px;
+  }
+
+  .about-butt {
+    width: 288px;
+    height: 50px;
+    background-color: #1a2236;
+    border: 1px solid #1a2236;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+
+  .about-butt p {
+    width: 86px;
+    height: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+  }
+
+  .about-butt img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .tech {
+    position: relative;
+    width: 289px;
+    height: 289px;
+  }
+
+  .tech-1 {
+    background-color: #1c528a;
+  }
+
+  .tech-2 {
+    background-color: #e2505c;
+  }
+
+  .tech-3 {
+    background-color: #febf52;
+  }
+
+  .tech img {
+    width: 102px;
+    height: 102px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .tech div h3 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 800;
+    padding: 50px 123px 21px 50px;
+    margin: 0;
+  }
+
+  .tech div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tech div ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 60px;
+    padding-left: 0;
+    width: 178px;
+    height: 135px;
+  }
+
+  .tech div ul li {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -1px;
   }
 }
