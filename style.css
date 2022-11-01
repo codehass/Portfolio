@@ -112,7 +112,7 @@ body {
   }
 
   .cart ul {
-    /* display: flex; */
+    display: flex;
     gap: 10px;
     align-items: center;
     justify-content: start;
@@ -128,8 +128,8 @@ body {
     background-color: #98dede;
     color: #1a2236;
     padding: 6px 10px;
-    float: left;
-    margin-right: 10px;
+
+    /* margin-right: 10px; */
   }
 
   .project-butt {
