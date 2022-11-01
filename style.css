@@ -386,8 +386,13 @@ body {
     margin-bottom: 0;
   }
 
-  .contact form ul li button:hover,
-  .contact form ul li button:focus {
+  .contact form ul li button:active {
+    cursor: pointer;
+    border: 2px solid #1a2236;
+    background-color: #e5e5e5;
+  }
+
+  .contact form ul li button:hover {
     cursor: pointer;
     border: 1px solid #1a2236;
     background-color: #e5e5e5;
