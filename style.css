@@ -50,6 +50,17 @@ body {
     margin: 0;
   }
 
+  form ul li button {
+    border: none;
+    font-family: "Poppins", sans-serif;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    background-color: #1a2236;
+    color: #fff;
+  }
+
   .headline-cont button {
     border: none;
     font-family: "Poppins", sans-serif;
@@ -121,6 +132,14 @@ body {
     text-align: center;
   }
 
+  form ul li {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    border: 1px solid #dfdfe0;
+    border-radius: 4px;
+  }
+
   .cart ul li {
     list-style: none;
     font-size: 10.33px;
@@ -128,6 +147,12 @@ body {
     background-color: #98dede;
     color: #1a2236;
     padding: 6px 10px;
+  }
+
+  .contact img {
+    width: 111px;
+    height: 74.02px;
+    margin-bottom: 31.98px;
   }
 
   .project-butt {
@@ -146,6 +171,12 @@ body {
     position: absolute;
     right: 0;
     bottom: 0;
+  }
+
+  .project-butt p {
+    font-size: 16px;
+    padding-right: 10px;
+    margin: 10px 0 10px 10px;
   }
 
   .project-butt:hover,
@@ -168,22 +199,6 @@ body {
   .project-butt img:hover,
   .project-butt img:focus {
     color: #1a2236;
-  }
-
-  .project-butt p {
-    font-size: 16px;
-    padding-right: 10px;
-    margin: 10px 0 10px 10px;
-  }
-
-  .about-text p {
-    height: 126px;
-    width: 288px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    margin-bottom: 32px;
   }
 
   .about-butt p {
@@ -281,5 +296,147 @@ body {
     font-size: 18px;
     font-weight: 600;
     letter-spacing: -1px;
+  }
+
+  .contact {
+    background: #f9f9fa;
+    width: 320px;
+  }
+
+  footer {
+    margin: 50px 0 100px 0;
+  }
+
+  .contact div h2 {
+    font-size: 50px;
+    margin: 0;
+    margin-left: 16px;
+    margin-bottom: 20px;
+    color: #1a2236;
+    font-family: "Playfair Display", serif;
+    line-height: 50px;
+    font-weight: 400;
+  }
+
+  .container .contact div p {
+    font-size: 14px;
+    margin: 20px 16px 32px 16px;
+    color: #1a2236;
+    font-family: "Poppins", serif;
+    line-height: 21px;
+    font-weight: 400;
+  }
+
+  .container .contact form {
+    width: 288px;
+    margin-bottom: 64px;
+  }
+
+  .container .contact form ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 8px;
+    align-items: center;
+    width: 288px;
+    margin-left: 16px;
+    padding: 0;
+    background-color: #fff;
+  }
+
+  .container .contact form ul li label {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #7d7c84;
+    padding: 0;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    margin: 4px 124px 0 16px;
+  }
+
+  .container .contact form ul li input {
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1a2236;
+    border: none;
+    height: 21px;
+    padding: 0;
+    margin: 4px 16px 8px 16px;
+  }
+
+  .container .contact form ul li textarea {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #7d7c84;
+    border: none;
+    height: 21px;
+    height: 112px;
+    margin: 15px 16px;
+  }
+
+  .contact form ul li:last-child {
+    margin-top: 12px;
+    margin-bottom: 0;
+  }
+
+  .contact form ul li button:active {
+    cursor: pointer;
+    border: 2px solid #1a2236;
+    background-color: #e5e5e5;
+  }
+
+  .contact form ul li button:hover {
+    cursor: pointer;
+    border: 1px solid #1a2236;
+    background-color: #e5e5e5;
+  }
+
+  .contact .contact-inf {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    width: 320px;
+    height: 150px;
+    background: #1a2236;
+  }
+
+  .contact .resume {
+    display: flex;
+    margin: 32px 111.4px 0 16px;
+    height: 24px;
+    gap: 16px;
+  }
+
+  .contact .contact-inf .resume p {
+    color: #92dcdc;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+  }
+
+  .contact .contact-inf .resume img {
+    width: 22px;
+    height: 22px;
+    color: #92dcdc;
+  }
+
+  .contact .contact-inf .socila-media {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .contact .contact-inf .socila-media img {
+    width: 24px;
+    height: 24px;
   }
 }
