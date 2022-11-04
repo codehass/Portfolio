@@ -22,8 +22,18 @@
   <body>
     <header>
       <nav>
-        <img src="imgs/image_geometry_1.png" alt="image" />
-        <img src="imgs/ic_menu (1).png" alt="Menu" class="menu-icon" />
+        <div class="nav-mobil">
+          <img src="imgs/image_geometry_1.png" alt="image" />
+          <img src="imgs/ic_menu (1).png" alt="Menu" class="menu-icon" />
+        </div>
+        <div class="nav-desk">
+          <ul>
+            <li>Hello</li>
+            <li>Portfolio</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
       </nav>
     </header>
 
@@ -39,12 +49,16 @@
           </p>
           <button>Start collaboration</button>
         </div>
+        <div class="headline-desk-img">
+          <img src="imgs/section-1.png" alt="" />
+        </div>
       </section>
       <img src="imgs/image_geometry_2.png" class="headline-img" />
 
-      <section class="projects">
-        <h2>Projects</h2>
-        <div class="cart">
+      <section class="projects grid-container">
+        <h2 class="item1">Projects</h2>
+
+        <div class="cart item2">
           <img src="imgs/prj-img-1.png" alt="" />
           <div class="proj-cont">
             <p>Project name goes here</p>
@@ -54,13 +68,13 @@
               <li>JavaScript</li>
             </ul>
             <div class="project-butt">
-              <p>See this project</p>
+              <p class="text-butt">See this project</p>
               <img src="imgs/Union.png" />
             </div>
           </div>
         </div>
 
-        <div class="cart">
+        <div class="cart item3">
           <img src="imgs/prj-img-2.png" alt="" />
           <div class="proj-cont">
             <p>Project name goes here</p>
@@ -75,7 +89,12 @@
             </div>
           </div>
         </div>
-        <div class="cart">
+
+        <div class="item4">
+          <img src="imgs/item4.png" alt="" />
+        </div>
+
+        <div class="cart item5">
           <img src="imgs/prj-img-3.png" alt="" />
           <div class="proj-cont">
             <p>Project name goes here</p>
@@ -90,7 +109,8 @@
             </div>
           </div>
         </div>
-        <div class="cart">
+
+        <div class="cart item6">
           <img src="imgs/prj-img-4.png" alt="" />
           <div class="proj-cont">
             <p>Project name goes here</p>
@@ -105,7 +125,12 @@
             </div>
           </div>
         </div>
-        <div class="cart">
+
+        <div class="item7">
+          <!-- <img src="imgs/item7.png" alt="" /> -->
+        </div>
+
+        <div class="cart item8">
           <img src="imgs/prj-img-5.png" alt="" />
           <div class="proj-cont">
             <p>Project name goes here</p>
@@ -120,7 +145,8 @@
             </div>
           </div>
         </div>
-        <div class="cart">
+
+        <div class="cart item9">
           <img src="imgs/prj-img-6.png" alt="" />
           <div class="proj-cont">
             <p>Project name goes here</p>
@@ -152,91 +178,107 @@
           </div>
         </div>
 
-        <div class="tech tech-1">
-          <div>
-            <h3>Languages</h3>
-            <ul>
-              <li>JavaScript (ES5/ES6)</li>
-              <li>Ruby</li>
-              <li>HTML</li>
-              <li>CSS</li>
-            </ul>
+        <div class="tech-grid tech-flex">
+          <div class="tech tech-1">
+            <div>
+              <h3>Languages</h3>
+              <ul>
+                <li>JavaScript (ES5/ES6)</li>
+                <li>Ruby</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+            <img src="imgs/tech-img-1.png" alt="" />
           </div>
-          <img src="imgs/tech-img-1.png" alt="" />
-        </div>
 
-        <div class="tech tech-2">
-          <div>
-            <h3>Frameworks</h3>
-            <ul>
-              <li>Bootstrap</li>
-              <li>Ruby on rails</li>
-              <li>RSpec</li>
-              <li>Capibara</li>
-              <li>Selenium</li>
-            </ul>
+          <div class="tech tech-2">
+            <div>
+              <h3>Frameworks</h3>
+              <ul>
+                <li>Bootstrap</li>
+                <li>Ruby on rails</li>
+                <li>RSpec</li>
+                <li>Capibara</li>
+                <li>Selenium</li>
+              </ul>
+            </div>
+            <img src="imgs/tech-img-2.png" alt="" />
           </div>
-          <img src="imgs/tech-img-2.png" alt="" />
-        </div>
 
-        <div class="tech tech-3">
-          <div>
-            <h3>Skills</h3>
-            <ul>
-              <li>Codekit</li>
-              <li>Codepen</li>
-              <li>GitHub</li>
-              <li>GitLAb</li>
-              <li>Terminal</li>
-            </ul>
+          <div class="tech tech-3">
+            <div>
+              <h3>Skills</h3>
+              <ul>
+                <li>Codekit</li>
+                <li>Codepen</li>
+                <li>GitHub</li>
+                <li>GitLAb</li>
+                <li>Terminal</li>
+              </ul>
+            </div>
+            <img src="imgs/tech-img-3.png" alt="" />
           </div>
-          <img src="imgs/tech-img-3.png" alt="" />
+
+          <div class="tech-4 tech">
+            <img src="/imgs/image_dots.png" alt="" />
+          </div>
         </div>
       </section>
 
+      <!-- Footer section  -->
+
       <footer class="contact">
-        <img src="imgs/footer-img.png" alt="" />
-        <div>
-          <h2>Get started</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna.
-          </p>
-        </div>
+        <div class="contact-desk">
+          <img src="imgs/footer-img.png" alt="" class="img-foter-mobile" />
+          <img src="imgs/footer-img-desk.png" alt="" class="img-foter-desk-1" />
+          <div>
+            <div>
+              <h2>Get started</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna.
+              </p>
+            </div>
 
-        <form action="https://formspree.io/f/xnqrodae" method="post">
-          <ul>
-            <li>
-              <label for="">Your name</label>
-              <input
-                type="text"
-                id="name"
-                name="username"
-                maxlength="30"
-                placeholder="Full name"
-                required
-              />
-            </li>
-            <li>
-              <label for="">Your email</label>
-              <input type="email" placeholder="Your email" required />
-            </li>
-            <li>
-              <label for=""></label>
-              <textarea
-                name="message"
-                maxlength="500"
-                cols="30"
-                rows="10"
-                required
-              >
+            <form action="https://formspree.io/f/xnqrodae" method="post">
+              <ul class="grid-container">
+                <li>
+                  <label for="">Your name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="username"
+                    maxlength="30"
+                    placeholder="Full name"
+                    required
+                  />
+                </li>
+                <li>
+                  <label for="">Your email</label>
+                  <input type="email" placeholder="Your email" required />
+                </li>
+                <li class="message">
+                  <label for="">Message</label>
+                  <textarea
+                    name="message"
+                    maxlength="500"
+                    cols="30"
+                    rows="10"
+                    required
+                  >
 Enter your message here..</textarea
-              >
-            </li>
-            <li><button>Start collaboration</button></li>
-          </ul>
-        </form>
+                  >
+                </li>
+                <li><button>Start collaboration</button></li>
+              </ul>
+            </form>
+          </div>
 
+          <div>
+            <img src="imgs/footer-2.png" alt="" class="img-foter-desk-2" />
+          </div>
+        </div>
         <div class="contact-inf">
           <div class="resume">
             <p>Get my Resume</p>
