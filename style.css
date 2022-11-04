@@ -46,7 +46,7 @@ body {
     color: #1a2236;
     width: 288px;
     height: 126px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
@@ -60,7 +60,7 @@ body {
 
   .headline-cont button {
     border: none;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     width: 288px;
     height: 50px;
     font-size: 16px;
@@ -72,7 +72,7 @@ body {
 
   .contact form ul li button {
     border: none;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     height: 44px;
     font-size: 16px;
     font-weight: 500;
@@ -96,7 +96,7 @@ body {
 
   .projects h2 {
     font-size: 50px;
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     line-height: 50px;
     margin: 39.9px 123px 32px 16px;
@@ -122,7 +122,7 @@ body {
 
   .proj-cont p {
     color: #fff;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 300;
     line-height: 16px;
@@ -220,7 +220,7 @@ body {
     margin-left: 16px;
     margin-bottom: 20px;
     color: #1a2236;
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     line-height: 50px;
     font-weight: 400;
   }
@@ -228,7 +228,7 @@ body {
   .container .about .about-text h2 {
     height: 50px;
     width: 134px;
-    font-family: "Playfair Display", sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     font-size: 50px;
     font-weight: 400;
     line-height: 50px;
@@ -240,14 +240,14 @@ body {
     font-size: 14px;
     margin: 20px 16px 32px 16px;
     color: #1a2236;
-    font-family: "Poppins", serif;
+    font-family: 'Poppins', serif;
     line-height: 21px;
     font-weight: 400;
   }
 
   .container .about .about-text p {
     font-size: 14px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     line-height: 21px;
     color: #1a2236;
@@ -261,7 +261,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
   }
 
@@ -284,7 +284,7 @@ body {
   .container .about .about-text .about-butt p {
     width: 86px;
     height: 24px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -333,7 +333,7 @@ body {
 
   .tech div h3 {
     color: #fff;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     line-height: 30px;
     font-weight: 800;
@@ -357,7 +357,7 @@ body {
 
   .tech div ul li {
     color: #fff;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 600;
     letter-spacing: -1px;
@@ -413,13 +413,13 @@ body {
     line-height: 15px;
     color: #7d7c84;
     padding: 0;
-    font-family: "Poppins", serif;
+    font-family: 'Poppins', serif;
     font-style: normal;
     margin: 4px 124px 0 16px;
   }
 
   .container .contact form ul li input {
-    font-family: "Poppins", serif;
+    font-family: 'Poppins', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -432,7 +432,7 @@ body {
   }
 
   .container .contact form ul li textarea {
-    font-family: "Poppins", serif;
+    font-family: 'Poppins', serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
@@ -502,7 +502,7 @@ body {
   .nav-desk ul li {
     list-style: none;
     margin-right: 50px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -511,7 +511,7 @@ body {
 
   .tech div ul li {
     color: #fff;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 600;
     letter-spacing: -1px;
@@ -580,7 +580,7 @@ body {
     font-size: 110px;
     line-height: 110px;
     font-weight: 400;
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     animation-name: heading-colour;
     animation-duration: 10s;
     transition: font-size 0.5s;
@@ -590,7 +590,7 @@ body {
     color: #1a2236;
     width: 484px;
     height: 84px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
@@ -600,7 +600,7 @@ body {
 
   .headline-cont button {
     border: none;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     width: 288px;
     height: 50px;
     font-size: 16px;
@@ -612,7 +612,7 @@ body {
 
   .contact form ul li button {
     border: none;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
@@ -629,6 +629,11 @@ body {
     border: 1px solid #1a2236;
     background-color: #e5e5e5;
     color: #1a2236;
+    /* transition: width 2s linear 1s; */
+    animation-name: heading-colour;
+    animation-duration: 10s;
+    transition: font-size 0.5s;
+    transform: scale(1.5);
   }
 
   /* *********** .projects section *********** */
@@ -670,7 +675,7 @@ body {
   .about .about-butt p {
     width: 86px;
     height: 24px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -680,7 +685,7 @@ body {
 
   .about .about-text p {
     font-size: 14px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     line-height: 21px;
     color: #1a2236;
@@ -699,7 +704,7 @@ body {
     font-size: 14px;
     margin: 20px 16px 32px 16px;
     color: #1a2236;
-    font-family: "Poppins", serif;
+    font-family: 'Poppins', serif;
     line-height: 21px;
     font-weight: 400;
   }
@@ -707,7 +712,7 @@ body {
   .item2:hover .proj-cont p {
     visibility: visible;
     color: #fff;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 60px;
     font-weight: 700;
     line-height: 40px;
@@ -908,7 +913,7 @@ body {
     font-size: 110px;
     line-height: 110px;
     color: #1a2236;
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     margin-bottom: 40px;
   }
@@ -916,7 +921,7 @@ body {
   .about .about-text h2 {
     height: 110px;
     width: 295px;
-    font-family: "Playfair Display", sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     font-size: 110px;
     font-weight: 400;
     line-height: 110px;
@@ -963,7 +968,7 @@ body {
 
   .tech div h3 {
     color: #fff;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     line-height: 30px;
     font-weight: 800;
@@ -977,7 +982,7 @@ body {
   }
 
   .tech-grid .tech-4::before {
-    content: " ";
+    content: ' ';
     width: 62.02px;
     height: 62.02px;
     background-color: #83d7d7;
@@ -1050,13 +1055,13 @@ body {
     line-height: 18px;
     color: #7d7c84;
     padding: 0;
-    font-family: "Poppins", serif;
+    font-family: 'Poppins', serif;
     font-style: normal;
     margin-bottom: 4px;
   }
 
   .container .contact form ul li input {
-    font-family: "Poppins", serif;
+    font-family: 'Poppins', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1077,7 +1082,7 @@ body {
   }
 
   .container .contact form ul li textarea {
-    font-family: "Poppins", serif;
+    font-family: 'Poppins', serif;
     width: 548px;
     height: 122px;
     padding-top: 18px;
@@ -1122,7 +1127,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
   }
 
