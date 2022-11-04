@@ -210,13 +210,13 @@ body {
     margin-bottom: 31.98px;
   }
 
-  .proj-cont .project-butt .img-butt-mob:hover,
-  .proj-cont .project-butt .img-butt-mob:focus {
+  .project-butt a:hover,
+  .project-butt a:focus {
     color: #1a2236;
   }
 
-  .project-butt a:hover,
-  .project-butt a:focus {
+  .proj-cont .project-butt .img-butt-mob:hover,
+  .proj-cont .project-butt .img-butt-mob:focus {
     color: #1a2236;
   }
 
