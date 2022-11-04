@@ -172,10 +172,23 @@ body {
     bottom: 0;
   }
 
-  .proj-cont .project-butt p {
+  .proj-cont .project-butt a {
+    text-decoration: none;
     font-size: 16px;
     padding-right: 10px;
     margin: 10px 0 10px 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    color: #fff;
+  }
+
+  .proj-cont .project-butt a:hover {
+    color: #fff;
+  }
+
+  .img-butt {
+    display: none;
   }
 
   .proj-cont .project-butt:hover,
@@ -188,6 +201,7 @@ body {
   .proj-cont .project-butt img {
     width: 20.57px;
     height: 15.35px;
+    color: #fff;
   }
 
   .container .contact img {
@@ -196,13 +210,13 @@ body {
     margin-bottom: 31.98px;
   }
 
-  .proj-cont .project-butt img:hover,
-  .proj-cont .project-butt img:focus {
+  .proj-cont .project-butt .img-butt-mob:hover,
+  .proj-cont .project-butt .img-butt-mob:focus {
     color: #1a2236;
   }
 
-  .project-butt p:hover,
-  .project-butt p:focus {
+  .project-butt a:hover,
+  .project-butt a:focus {
     color: #1a2236;
   }
 
@@ -289,6 +303,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     margin: 0;
+    color: #fff;
   }
 
   .container .about-butt {
@@ -301,6 +316,13 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
+  }
+
+  .about .about-butt:hover,
+  .about .about-butt:active {
+    cursor: pointer;
+    background-color: #e5e5e5;
+    color: #1a2236;
   }
 
   .tech-flex {
@@ -482,8 +504,12 @@ body {
     align-items: center;
   }
 
-  .item2 {
+  /* .item2 {
     display: none;
+  } */
+
+  .mg-butt-mob {
+    color: red !important;
   }
 }
 
@@ -647,10 +673,8 @@ body {
     display: none;
   }
 
-  .item2 img {
+  .item2 .item2-img {
     display: none;
-    width: 960px;
-    height: 100%;
   }
 
   .item2 {
@@ -757,6 +781,12 @@ body {
     border: 1px solid #fff;
   }
 
+  .item2:hover .project-butt .img-butt {
+    visibility: visible;
+    width: 20.57px;
+    height: 15.35px;
+  }
+
   .item3 img {
     width: 465px;
     height: 270px;
@@ -808,19 +838,16 @@ body {
     bottom: 0;
   }
 
-  .item2:hover .project-butt img {
+  .item2:hover .project-butt a {
     visibility: visible;
-    width: 17px;
-    height: 17px;
-    color: red;
-  }
-
-  .item2:hover .project-butt p {
-    visibility: visible;
+    text-decoration: none;
     color: #1a2236;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
     font-size: 18px;
-    padding-right: 20px;
-    margin: 10px 0 10px 10px;
+    line-height: 24px;
+    padding: 12px 15px 12px 20px;
+    margin: 0;
   }
 
   .grid-container {
@@ -953,6 +980,14 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
+  }
+
+  .about .about-butt:hover,
+  .about .about-butt:active,
+  .about .about-butt:disabled {
+    cursor: pointer;
+    background-color: #e5e5e5;
+    color: #1a2236;
   }
 
   .tech-grid {
@@ -1160,5 +1195,9 @@ body {
     width: 24px;
     height: 24px;
     margin: 0;
+  }
+
+  .img-butt-mob {
+    display: none;
   }
 }
