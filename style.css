@@ -581,6 +581,9 @@ body {
     line-height: 110px;
     font-weight: 400;
     font-family: "Playfair Display", serif;
+    animation-name: heading-colour;
+    animation-duration: 10s;  
+    transition: font-size 0.5s;
   }
 
   .headline-cont p {
@@ -1138,4 +1141,17 @@ body {
     height: 24px;
     margin: 0;
   }
+}
+
+@keyframes heading-colour {
+  from {
+    color: green;
+  }
+  to {
+    color: red;
+  }
+}
+
+.headline .headline-cont h1:hover {
+font-size: 125px;
 }
