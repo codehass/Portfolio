@@ -507,6 +507,19 @@ body {
     font-weight: 400;
     line-height: 24px;
     color: #1a2236;
+    border-bottom: 2px solid #fff;
+    position: relative;
+    padding: 5px;
+  }
+
+  .nav-desk ul li:hover::before {
+    content: "";
+    cursor: pointer;
+    width: 40px;
+    height: 2px;
+    background-color: #1a2236;
+    position: absolute;
+    bottom: 0;
   }
 
   .tech div ul li {
@@ -539,7 +552,7 @@ body {
   header nav .nav-desk ul {
     display: flex;
     justify-content: center;
-    margin: 38px auto;
+    margin: 32px auto;
     padding: 0;
   }
 
@@ -664,7 +677,7 @@ body {
     top: 205px;
   }
 
-  .about .about-butt p {
+  .about .about-butt .about-butt-text {
     width: 86px;
     height: 24px;
     font-family: "Poppins", sans-serif;
@@ -788,8 +801,8 @@ body {
   }
 
   .tech-flex .tech img {
-    width: 102px;
-    height: 102px;
+    width: 160px;
+    height: 160px;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -819,11 +832,12 @@ body {
   .item1 {
     grid-column: 1 / 5;
     font-size: 110px;
+    font-family: "Playfair Display", serif;
     transform: rotate(-0.25turn);
     width: fit-content;
     position: relative;
-    left: 110px;
-    top: -84px;
+    left: 96px;
+    top: -67px;
   }
 
   .item1::before {
@@ -870,6 +884,15 @@ body {
     grid-column: 1/ 7;
     grid-row: 4 /5;
     height: 270px;
+    background-image: url(imgs/item5-1.png);
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  .item7::after {
+    content: url(imgs/item5-2.png);
+    right: -80px;
+    position: absolute;
   }
 
   .item8 {
