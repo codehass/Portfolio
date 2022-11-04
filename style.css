@@ -582,7 +582,7 @@ body {
     font-weight: 400;
     font-family: "Playfair Display", serif;
     animation-name: heading-colour;
-    animation-duration: 10s;  
+    animation-duration: 10s;
     transition: font-size 0.5s;
   }
 
@@ -689,6 +689,8 @@ body {
     margin-top: 0;
     width: 446px;
     height: 84;
+    animation-name: change-background;
+    animation-duration: 6s;
   }
 
   .container .contact div p {
@@ -921,6 +923,7 @@ body {
     margin-bottom: 30px;
     margin-top: 0;
     margin-top: 28px;
+    transition: font-size 0.5s;
   }
 
   .about .about-butt {
@@ -1153,5 +1156,18 @@ body {
 }
 
 .headline .headline-cont h1:hover {
-font-size: 125px;
+  font-size: 125px;
+}
+
+@keyframes change-background {
+  from {
+    color: green;
+  }
+  to {
+    color: greenyellow;
+  }
+}
+
+.about .about-text h2:hover {
+  font-size: 120px;
 }
