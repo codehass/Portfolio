@@ -594,7 +594,7 @@ body {
   }
 
   .container .headline-desk-img::before {
-    content: url(/imgs/image_dots.png);
+    content: url(imgs/image_dots.png);
     width: 175px;
     height: 175px;
     position: absolute;
