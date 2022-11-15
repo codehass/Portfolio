@@ -7,9 +7,6 @@ document.querySelector('.menu-icon').addEventListener('click', () => {
   document.querySelector('.close').classList.toggle('show');
 });
 
-const menuSections = document.querySelectorAll('.menu-sel');
-menuSections.forEach(myFunction);
-
 function myFunction(element) {
   element.addEventListener('click', () => {
     document.querySelector('.nav-desk').classList.remove('active');
@@ -20,3 +17,6 @@ function myFunction(element) {
     document.querySelector('.close').classList.remove('show');
   });
 }
+
+const menuSections = document.querySelectorAll('.menu-sel');
+menuSections.forEach(myFunction);
