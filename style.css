@@ -70,6 +70,25 @@ body {
     left: -73px;
   }
 
+  .nav-desk.active::after {
+    content: url(imgs/Group\ 51.png);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 57px;
+  }
+
+  .nav-desk.active::before {
+    content: url(imgs/MaskGroup.png);
+    width: 320px;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+
   .nav-desk.active ul li {
     list-style: none;
     font-size: 16px;
