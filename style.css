@@ -42,14 +42,12 @@ body {
 
   .nav-desk.active {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 0;
-    top: 74px;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
-    height: 494px;
+    height: calc(100vh - 74px);
     background-color: #fff;
+    min-height: 498px;
   }
 
   .cart ul {
@@ -72,21 +70,9 @@ body {
   }
 
   .nav-desk.active ul {
-    height: 192px;
     padding: 0;
     text-align: center;
-    position: absolute;
-    top: 70px;
-    margin: 0;
-  }
-
-  .nav-desk.active ul::before {
-    content: url(imgs/Group\ 51.png);
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    bottom: -122px;
-    left: -73px;
+    margin-top: calc(33vh - 74px);
   }
 
   .nav-desk.active::after {
@@ -94,17 +80,17 @@ body {
     width: 40px;
     height: 40px;
     position: absolute;
-    top: 0;
-    right: 57px;
+    left: 54px;
+    bottom: 693px;
   }
 
   .nav-desk.active::before {
-    content: url(imgs/MaskGroup.png);
-    width: 320px;
-    height: 80px;
+    content: url(imgs/Group\ 51.png);
+    width: 40px;
+    height: 40px;
     position: absolute;
-    bottom: 0;
-    left: 0;
+    top: 74px;
+    right: 57px;
   }
 
   .cart ul li {
@@ -118,7 +104,7 @@ body {
 
   .tech div ul li {
     color: #fff;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 600;
     letter-spacing: -1px;
@@ -135,7 +121,7 @@ body {
   .nav-desk.active ul li {
     list-style: none;
     font-size: 16px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     line-height: 48px;
   }
@@ -178,7 +164,7 @@ body {
     color: #1a2236;
     width: 288px;
     height: 126px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
@@ -192,7 +178,7 @@ body {
 
   .headline-cont button {
     border: none;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     width: 288px;
     height: 50px;
     font-size: 16px;
@@ -204,7 +190,7 @@ body {
 
   .contact form ul li button {
     border: none;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     height: 44px;
     font-size: 16px;
     font-weight: 500;
@@ -228,7 +214,7 @@ body {
 
   .projects h2 {
     font-size: 50px;
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     line-height: 50px;
     margin: 39.9px 123px 32px 16px;
@@ -254,7 +240,7 @@ body {
 
   .proj-cont p {
     color: #fff;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 300;
     line-height: 16px;
@@ -290,7 +276,7 @@ body {
     font-size: 16px;
     padding-right: 10px;
     margin: 10px 0 10px 10px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     line-height: 24px;
     color: #fff;
@@ -347,7 +333,7 @@ body {
     margin-left: 16px;
     margin-bottom: 20px;
     color: #1a2236;
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     line-height: 50px;
     font-weight: 400;
   }
@@ -355,7 +341,7 @@ body {
   .container .about .about-text h2 {
     height: 50px;
     width: 134px;
-    font-family: "Playfair Display", sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     font-size: 50px;
     font-weight: 400;
     line-height: 50px;
@@ -367,14 +353,14 @@ body {
     font-size: 14px;
     margin: 20px 16px 32px 16px;
     color: #1a2236;
-    font-family: "Poppins", serif;
+    font-family: 'Poppins', serif;
     line-height: 21px;
     font-weight: 400;
   }
 
   .container .about .about-text p {
     font-size: 14px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     line-height: 21px;
     color: #1a2236;
@@ -388,7 +374,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
   }
 
@@ -411,7 +397,7 @@ body {
   .container .about .about-text .about-butt p {
     width: 86px;
     height: 24px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -468,7 +454,7 @@ body {
 
   .tech div h3 {
     color: #fff;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     line-height: 30px;
     font-weight: 800;
@@ -523,13 +509,13 @@ body {
     line-height: 15px;
     color: #7d7c84;
     padding: 0;
-    font-family: "Poppins", serif;
+    font-family: 'Poppins', serif;
     font-style: normal;
     margin: 4px 124px 0 16px;
   }
 
   .container .contact form ul li input {
-    font-family: "Poppins", serif;
+    font-family: 'Poppins', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -542,7 +528,7 @@ body {
   }
 
   .container .contact form ul li textarea {
-    font-family: "Poppins", serif;
+    font-family: 'Poppins', serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
@@ -616,7 +602,7 @@ body {
   .nav-desk ul li {
     list-style: none;
     margin-right: 50px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -627,7 +613,7 @@ body {
   }
 
   .nav-desk ul li:hover::before {
-    content: "";
+    content: '';
     cursor: pointer;
     width: 40px;
     height: 2px;
@@ -638,7 +624,7 @@ body {
 
   .tech div ul li {
     color: #fff;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 600;
     letter-spacing: -1px;
@@ -707,14 +693,14 @@ body {
     font-size: 110px;
     line-height: 110px;
     font-weight: 400;
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
   }
 
   .headline-cont p {
     color: #1a2236;
     width: 484px;
     height: 84px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
@@ -724,7 +710,7 @@ body {
 
   .headline-cont button {
     border: none;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     width: 288px;
     height: 50px;
     font-size: 16px;
@@ -736,7 +722,7 @@ body {
 
   .contact form ul li button {
     border: none;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
@@ -792,7 +778,7 @@ body {
   .about .about-butt .about-butt-text {
     width: 86px;
     height: 24px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -802,7 +788,7 @@ body {
 
   .about .about-text p {
     font-size: 14px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     line-height: 21px;
     color: #1a2236;
@@ -819,7 +805,7 @@ body {
     font-size: 14px;
     margin: 20px 16px 32px 16px;
     color: #1a2236;
-    font-family: "Poppins", serif;
+    font-family: 'Poppins', serif;
     line-height: 21px;
     font-weight: 400;
   }
@@ -827,7 +813,7 @@ body {
   .item2:hover .proj-cont p {
     visibility: visible;
     color: #fff;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 60px;
     font-weight: 700;
     line-height: 40px;
@@ -931,7 +917,7 @@ body {
     text-decoration: none;
     color: #1a2236;
     font-weight: 500;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     line-height: 24px;
     padding: 12px 15px 12px 20px;
@@ -947,7 +933,7 @@ body {
   .item1 {
     grid-column: 1 / 5;
     font-size: 110px;
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     transform: rotate(-0.25turn);
     width: fit-content;
     position: relative;
@@ -1041,7 +1027,7 @@ body {
     font-size: 110px;
     line-height: 110px;
     color: #1a2236;
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     margin-bottom: 40px;
   }
@@ -1049,7 +1035,7 @@ body {
   .about .about-text h2 {
     height: 110px;
     width: 295px;
-    font-family: "Playfair Display", sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     font-size: 110px;
     font-weight: 400;
     line-height: 110px;
@@ -1103,7 +1089,7 @@ body {
 
   .tech div h3 {
     color: #fff;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     line-height: 30px;
     font-weight: 800;
@@ -1117,7 +1103,7 @@ body {
   }
 
   .tech-grid .tech-4::before {
-    content: " ";
+    content: ' ';
     width: 62.02px;
     height: 62.02px;
     background-color: #83d7d7;
@@ -1190,13 +1176,13 @@ body {
     line-height: 18px;
     color: #7d7c84;
     padding: 0;
-    font-family: "Poppins", serif;
+    font-family: 'Poppins', serif;
     font-style: normal;
     margin-bottom: 4px;
   }
 
   .container .contact form ul li input {
-    font-family: "Poppins", serif;
+    font-family: 'Poppins', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1217,7 +1203,7 @@ body {
   }
 
   .container .contact form ul li textarea {
-    font-family: "Poppins", serif;
+    font-family: 'Poppins', serif;
     width: 548px;
     height: 122px;
     padding-top: 18px;
@@ -1262,7 +1248,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
   }
 
@@ -1286,6 +1272,9 @@ body {
   }
 
   .img-butt-mob {
+    display: none;
+  }
+  .nav-img-bott {
     display: none;
   }
 }

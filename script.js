@@ -6,4 +6,3 @@ function showMenu() {
   document.querySelector('.menu').classList.toggle('hide');
   document.querySelector('.close').classList.toggle('show');
 }
-document.querySelector('.nav-desk').addEventListener('click', showMenu());
