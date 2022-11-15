@@ -52,6 +52,25 @@ body {
     background-color: #fff;
   }
 
+  .cart ul {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    padding: 0;
+    margin: 0 20px 20px;
+    text-align: center;
+  }
+
+  .tech div ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 60px;
+    padding-left: 0;
+    width: 178px;
+    height: 135px;
+  }
+
   .nav-desk.active ul {
     height: 192px;
     padding: 0;
@@ -88,6 +107,30 @@ body {
     left: 0;
   }
 
+  .cart ul li {
+    list-style: none;
+    font-size: 10.33px;
+    text-decoration: none;
+    background-color: #98dede;
+    color: #1a2236;
+    padding: 6px 10px;
+  }
+
+  .tech div ul li {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -1px;
+  }
+
+  .container form ul li {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    border: 1px solid #dfdfe0;
+    border-radius: 4px;
+  }
 
   .nav-desk.active ul li {
     list-style: none;
@@ -217,25 +260,6 @@ body {
     line-height: 16px;
     margin-left: 20px;
     padding: 0;
-  }
-
-  .cart ul {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    justify-content: start;
-    padding: 0;
-    margin: 0 20px 20px;
-    text-align: center;
-  }
-
-  .cart ul li {
-    list-style: none;
-    font-size: 10.33px;
-    text-decoration: none;
-    background-color: #98dede;
-    color: #1a2236;
-    padding: 6px 10px;
   }
 
   .project-butt {
@@ -457,23 +481,6 @@ body {
     flex-direction: column;
   }
 
-  .tech div ul {
-    display: flex;
-    flex-direction: column;
-    margin: 0 0 0 60px;
-    padding-left: 0;
-    width: 178px;
-    height: 135px;
-  }
-
-  .tech div ul li {
-    color: #fff;
-    font-family: "Poppins", sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: -1px;
-  }
-
   .contact {
     background: #f9f9fa;
     width: 320px;
@@ -489,14 +496,6 @@ body {
 
   footer {
     margin: 50px 0 100px 0;
-  }
-
-  .container form ul li {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    border: 1px solid #dfdfe0;
-    border-radius: 4px;
   }
 
   .container .contact form {
@@ -811,7 +810,7 @@ body {
     margin-bottom: 42px;
     margin-top: 0;
     width: 446px;
-    height: 84;
+    height: 84px;
   }
 
   .container .contact div p {
