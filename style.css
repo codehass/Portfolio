@@ -7,6 +7,10 @@ body {
 }
 
 @media (max-width: 767px) {
+  .body.active {
+    position: fixed;
+  }
+
   .container {
     width: 100%;
     height: 74px;
@@ -24,15 +28,77 @@ body {
     display: none;
   }
 
+  .nav-mobil-img-2 {
+    display: none;
+  }
+
+  .nav-mobil-img-2.active {
+    display: block;
+  }
+
+  .nav-mobil-img.active {
+    display: none;
+  }
+
+  .nav-desk.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 74px;
+    width: 100%;
+    height: 494px;
+    background-color: #fff;
+  }
+
+  .nav-desk.active ul {
+    height: 192px;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 70px;
+    margin: 0;
+  }
+
+  .nav-desk.active ul::before {
+    content: url(imgs/Group\ 51.png);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: -122px;
+    left: -73px;
+  }
+
+  .nav-desk.active ul li {
+    list-style: none;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 48px;
+  }
+
   .menu-icon {
     margin-right: 10px;
     width: 20px;
     height: 14px;
   }
 
+  img.menu.hide {
+    display: none;
+  }
+
+  .close {
+    display: none;
+  }
+
+  img.close.show {
+    display: flex;
+  }
+
   .headline .headline-cont {
     display: flex;
-    width: 320px;
+    width: 288px;
     flex-direction: column;
     gap: 20px;
     margin: 20px 16px 40px 16px;
