@@ -8,8 +8,10 @@ document.querySelector('.menu-icon').addEventListener('click', () => {
 });
 
 const menuSections = document.querySelectorAll('.menu-sel');
-for (let i = 0; i < menuSections.length; i++) {
-  menuSections[i].addEventListener('click', function () {
+menuSections.forEach(myFunction);
+
+function myFunction(element) {
+  element.addEventListener('click', () => {
     document.querySelector('.nav-desk').classList.remove('active');
     document.querySelector('.nav-mobil-img').classList.remove('active');
     document.querySelector('.nav-mobil-img-2').classList.remove('active');
