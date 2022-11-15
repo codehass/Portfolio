@@ -1,5 +1,4 @@
-const name = document.querySelector('.menu-icon');
-name.addEventListener('click', function () {
+document.querySelector('.menu-icon').addEventListener('click', () => {
   document.querySelector('.nav-desk').classList.toggle('active');
   document.querySelector('.nav-mobil-img').classList.toggle('active');
   document.querySelector('.nav-mobil-img-2').classList.toggle('active');
