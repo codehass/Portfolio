@@ -33,7 +33,7 @@ let obectsinfo = {
 function popupProjects(project) {
   project.addEventListener('click', () => {
     const new_div = document.createElement('div');
-    new_div.innerHTML = `
+    new_div.innerHTML += `
         <div class ="desk-popup">
           <div class ="top-popup" >
           <img src="${obectsinfo.Img}" class ="menuClose" id ="menuClose" />
@@ -52,6 +52,12 @@ function popupProjects(project) {
           <a class ="popup-butt1" href="#" >See live</a>
           <a class ="popup-butt2" href="#" >See source</a>
           </div>
+          <div class="Next-ele">
+            <a class="Next-one">Previous project</a>
+            <a class="Next-one">Next project</a>
+          </div>
+
+
         </div>
     `;
     new_div.setAttribute('class', 'my_div closepopup');
@@ -62,3 +68,9 @@ function popupProjects(project) {
 
 const projects = document.querySelectorAll('.project-butt');
 projects.forEach(popupProjects);
+
+// document.querySelector('.menuClose').addEventListener('click', () => {
+//   console.log('clicked');
+// });
+
+console.log(document.querySelector('#menuClose'));
