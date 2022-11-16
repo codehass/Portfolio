@@ -28,6 +28,8 @@ let projectsInfo = {
   tech: ['HTML/CSS', 'Ruby on Rais', 'JavaScript'],
   description:
     'Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisiUt aliquip ex ea commodo consequat  Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi.',
+  liveLink: 'https://codehass.github.io/Portfolio/',
+  sourceLink: 'https://github.com/codehass/Portfolio/tree/mobil-menu',
 };
 
 function popupProjects(project) {
@@ -50,11 +52,12 @@ function popupProjects(project) {
           </div>
           <div class ="buttPopup">
               <div class ="buttPopupflex">
-                <a class ="popup-butt1" href="#" >See live</a>
+                <a class ="popup-butt1" href="${projectsInfo.liveLink}" >See live</a>
                 <img  class ="popup-butt1img" src="imgs/Union (1).svg" />
+                <img  class ="popup-imghover" src="imgs/ic_link_teal.png" />
               </div>
               <div class ="buttPopupflex">
-                <a class ="popup-butt2" href="#" >See source</a>
+                <a class ="popup-butt2" href="${projectsInfo.sourceLink}" >See source</a>
                 <i class="fa-brands fa-github"></i>
               </div>
           </div>
