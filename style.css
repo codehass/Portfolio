@@ -999,6 +999,72 @@ body {
     bottom: 0;
   }
 
+  /* ********************** */
+  .my_div {
+    width: 1440px;
+    height: 101vh;
+    background-color: #1a2236;
+    position: fixed;
+    top: 0;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 2;
+    overflow-y: scroll;
+  }
+
+  .desk-popup {
+    background: #fff;
+    width: 1300px;
+    margin: 70px auto;
+    height: 203vh;
+  }
+
+  .my_div img {
+    width: 1179px;
+    height: 857px;
+    margin: 40px 60px 68px 60px;
+  }
+
+  .top-popup img {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 100px;
+    right: 76px;
+  }
+
+  .top-popup p {
+    font-family: 'Poppins', sans-serif;
+    width: 726px;
+    font-weight: bold;
+    color: #1a2236;
+    font-size: 60px;
+    line-height: 48px;
+    margin: 57px 36px 34px 60px;
+  }
+
+  .my_div ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-left: 60px;
+  }
+
+  .my_div ul li {
+    font-family: 'Poppins', sans-serif;
+    color: #1a2236;
+    font-size: 20px;
+    line-height: 16px;
+    font-weight: 300;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid #1a2236;
+    background-color: #fff;
+    margin: 0 10px;
+  }
+
+  /* ********************** */
+
   .item2:hover .project-butt a {
     visibility: visible;
     text-decoration: none;

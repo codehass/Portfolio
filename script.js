@@ -34,9 +34,9 @@ function popupProjects(project) {
   project.addEventListener('click', () => {
     const new_div = document.createElement('div');
     new_div.innerHTML = `
-        <div>
+        <div class ="desk-popup">
           <div class ="top-popup" >
-          <img src="${obectsinfo.Img}" class ="menuClose" />
+          <img src="${obectsinfo.Img}" class ="menuClose" id ="menuClose" />
           <p class ="popup-title"> ${obectsinfo.Name} </p>
           </div>
           <ul>
@@ -48,8 +48,10 @@ function popupProjects(project) {
           <div>
             <p class ="popup-descp">${obectsinfo.description}</p>
           </div>
+          <div class ="buttPopup">
           <a class ="popup-butt1" href="#" >See live</a>
           <a class ="popup-butt2" href="#" >See source</a>
+          </div>
         </div>
     `;
     new_div.setAttribute('class', 'my_div closepopup');
@@ -60,8 +62,3 @@ function popupProjects(project) {
 
 const projects = document.querySelectorAll('.project-butt');
 projects.forEach(popupProjects);
-
-document.querySelector('.menuClose').addEventListener('click', () => {
-  // document.querySelector('.my_div').style.display = null;
-  console.log('clicked');
-});
