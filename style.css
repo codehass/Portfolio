@@ -1063,6 +1063,46 @@ body {
     margin: 0 10px;
   }
 
+  .popup-descp {
+    font-family: 'Poppins', sans-serif;
+    width: 700px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0 auto 40px auto;
+  }
+
+  .buttPopup {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .popup-butt1 {
+    width: 69px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1a2236;
+    text-align: center;
+    padding: 12px 155px 12px 22px;
+    border: 1px solid #1a2236;
+    display: block;
+  }
+
+  .popup-butt2 {
+    width: 100px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1a2236;
+    text-align: center;
+    padding: 12px 123px 12px 23px;
+    border: 1px solid #1a2236;
+    display: block;
+    margin-left: 37px;
+  }
+
   /* ********************** */
 
   .item2:hover .project-butt a {
