@@ -4,6 +4,7 @@ html {
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
 body {
@@ -20,6 +21,88 @@ body {
     height: 74px;
     height: 568px;
   }
+
+  /* ******************** */
+
+  .my_div {
+    width: 320px;
+    height: 100vh;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 2;
+    overflow-y: scroll;
+  }
+
+  .my_div img {
+    margin: 0 0 29px 20px;
+  }
+
+  .top-popup img {
+    position: absolute;
+    top: 19px;
+    right: 18px;
+  }
+
+  .top-popup p {
+    font-family: 'Poppins', sans-serif;
+    width: 264px;
+    font-weight: 700;
+    color: #1a2236;
+    font-size: 20px;
+    line-height: 16px;
+    margin: 57px 36px 23px 20px;
+  }
+
+  .my_div ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-left: 20px;
+  }
+
+  .my_div ul li {
+    font-family: 'Poppins', sans-serif;
+    color: #1a2236;
+    font-size: 10px;
+    font-weight: 300;
+    padding: 6px 10px;
+    border: 1px solid #1a2236;
+    background-color: #fff;
+    margin: 0 10px 18px 0;
+  }
+
+  .popup-descp {
+    font-family: 'Poppins', sans-serif;
+    width: 291px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0 auto 29px auto;
+  }
+
+  .popup-butt1 {
+    width: 69px;
+    text-align: center;
+    padding: 12px 95px 12px 82px;
+    border: 1px solid #1a2236;
+    display: block;
+    margin: 0 0 29px 37px;
+  }
+
+  .popup-butt2 {
+    width: 100px;
+    text-align: center;
+    padding: 12px 80px 12px 66px;
+    border: 1px solid #1a2236;
+    display: block;
+    margin-left: 37px;
+  }
+
+  /* ******************** */
 
   .nav-mobil {
     width: 320px;
