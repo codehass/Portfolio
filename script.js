@@ -20,3 +20,48 @@ function myFunction(element) {
 
 const menuSections = document.querySelectorAll('.menu-sel');
 menuSections.forEach(myFunction);
+
+// **************Popup*******************
+let obectsinfo = {
+  Name: 'Project name goes here',
+  Img: 'imgs/Union close.png',
+  tech: ['HTML/CSS', 'Ruby on Rais', 'JavaScript'],
+  description:
+    'Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisiUt aliquip ex ea commodo consequat  Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi.',
+};
+
+function popupProjects(project) {
+  project.addEventListener('click', () => {
+    const new_div = document.createElement('div');
+    new_div.innerHTML = `
+        <div>
+          <div class ="top-popup" >
+          <img src="${obectsinfo.Img}" class ="menuClose" />
+          <p class ="popup-title"> ${obectsinfo.Name} </p>
+          </div>
+          <ul>
+              <li>${obectsinfo.tech[0]}</li>
+              <li>${obectsinfo.tech[1]}</li>
+              <li>${obectsinfo.tech[2]}</li>
+          </ul>
+          <img src="imgs/Group 110.png"  />
+          <div>
+            <p class ="popup-descp">${obectsinfo.description}</p>
+          </div>
+          <a class ="popup-butt1" href="#" >See live</a>
+          <a class ="popup-butt2" href="#" >See source</a>
+        </div>
+    `;
+    new_div.setAttribute('class', 'my_div closepopup');
+    const projects = document.querySelector('.projects');
+    projects.appendChild(new_div);
+  });
+}
+
+const projects = document.querySelectorAll('.project-butt');
+projects.forEach(popupProjects);
+
+document.querySelector('.menuClose').addEventListener('click', () => {
+  // document.querySelector('.my_div').style.display = null;
+  console.log('clicked');
+});
