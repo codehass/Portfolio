@@ -22,9 +22,9 @@ const menuSections = document.querySelectorAll('.menu-sel');
 menuSections.forEach(myFunction);
 
 // **************Popup*******************
-let obectsinfo = {
-  Name: 'Project name goes here',
-  Img: 'imgs/Union close.png',
+let projectsInfo = {
+  name: 'Project name goes here',
+  img: 'imgs/Union close.png',
   tech: ['HTML/CSS', 'Ruby on Rais', 'JavaScript'],
   description:
     'Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisiUt aliquip ex ea commodo consequat  Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi.',
@@ -36,25 +36,38 @@ function popupProjects(project) {
     new_div.innerHTML += `
         <div class ="desk-popup">
           <div class ="top-popup" >
-          <img src="${obectsinfo.Img}" class ="menuClose" id ="menuClose" />
-          <p class ="popup-title"> ${obectsinfo.Name} </p>
+          <img src="${projectsInfo.img}" class ="menuClose" id ="menuClose" />
+          <p class ="popup-title"> ${projectsInfo.name} </p>
           </div>
           <ul>
-              <li>${obectsinfo.tech[0]}</li>
-              <li>${obectsinfo.tech[1]}</li>
-              <li>${obectsinfo.tech[2]}</li>
+              <li>${projectsInfo.tech[0]}</li>
+              <li>${projectsInfo.tech[1]}</li>
+              <li>${projectsInfo.tech[2]}</li>
           </ul>
-          <img src="imgs/Group 110.png"  />
+          <img class ="desimg"  src="imgs/Group 110.png"  />
           <div>
-            <p class ="popup-descp">${obectsinfo.description}</p>
+            <p class ="popup-descp">${projectsInfo.description}</p>
           </div>
           <div class ="buttPopup">
-          <a class ="popup-butt1" href="#" >See live</a>
-          <a class ="popup-butt2" href="#" >See source</a>
+              <div class ="buttPopupflex">
+                <a class ="popup-butt1" href="#" >See live</a>
+                <img  class ="popup-butt1img" src="imgs/Union (1).svg" />
+              </div>
+              <div class ="buttPopupflex">
+                <a class ="popup-butt2" href="#" >See source</a>
+                <i class="fa-brands fa-github"></i>
+              </div>
           </div>
+
           <div class="Next-ele">
-            <a class="Next-one">Previous project</a>
-            <a class="Next-one">Next project</a>
+            <div>
+              <img src="imgs/Union (4).png" />
+              <a class="prev-one">Previous project</a>
+            </div> 
+            <div>
+              <a class="next-one">Next project </a>
+              <img src="imgs/Union (3).png" />
+            </div>
           </div>
 
 
@@ -63,14 +76,12 @@ function popupProjects(project) {
     new_div.setAttribute('class', 'my_div closepopup');
     const projects = document.querySelector('.projects');
     projects.appendChild(new_div);
+    document.querySelector('.menuClose').addEventListener('click', () => {
+      document.querySelector('.my_div').remove();
+      console.log('clicked');
+    });
   });
 }
 
 const projects = document.querySelectorAll('.project-butt');
 projects.forEach(popupProjects);
-
-// document.querySelector('.menuClose').addEventListener('click', () => {
-//   console.log('clicked');
-// });
-
-console.log(document.querySelector('#menuClose'));
