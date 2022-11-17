@@ -82,7 +82,7 @@ const projectsInfo = [
 function popupProjects(project) {
   project.addEventListener('click', () => {
     let index = 0;
-    if (project.id == 'one') {
+    if (project.id === 'one') {
       index = 0;
     } else if (project.id === 'two') {
       index = 1;
