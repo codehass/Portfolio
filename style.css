@@ -734,6 +734,25 @@ body {
     bottom: 0;
   }
 
+  .my_div ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-left: 60px;
+  }
+
+  .my_div ul li {
+    font-family: 'Poppins', sans-serif;
+    color: #1a2236;
+    font-size: 20px;
+    line-height: 16px;
+    font-weight: 300;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid #1a2236;
+    background-color: #fff;
+    margin: 0 10px;
+  }
+
   .tech div ul li {
     color: #fff;
     font-family: 'Poppins', sans-serif;
@@ -898,6 +917,16 @@ body {
     color: #fff;
   }
 
+  .top-popup p {
+    font-family: 'Poppins', sans-serif;
+    width: 726px;
+    font-weight: bold;
+    color: #1a2236;
+    font-size: 60px;
+    line-height: 48px;
+    margin: 57px 36px 34px 60px;
+  }
+
   .about .about-text p {
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
@@ -1008,6 +1037,32 @@ body {
     width: 100%;
   }
 
+  .my_div img {
+    width: 1179px;
+    height: 857px;
+    margin: 40px 60px 68px 60px;
+  }
+
+  .top-popup img {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 100px;
+    right: 76px;
+  }
+
+  .buttPopup img {
+    width: 17px;
+    height: 17px;
+    margin: 0;
+  }
+
+  .Next-ele img {
+    width: 20px;
+    height: 15px;
+    margin: 0;
+  }
+
   .tech-grid .tech-4 img {
     width: 160px;
     height: 160px;
@@ -1045,49 +1100,6 @@ body {
     height: 203vh;
   }
 
-  .my_div img {
-    width: 1179px;
-    height: 857px;
-    margin: 40px 60px 68px 60px;
-  }
-
-  .top-popup img {
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    top: 100px;
-    right: 76px;
-  }
-
-  .top-popup p {
-    font-family: 'Poppins', sans-serif;
-    width: 726px;
-    font-weight: bold;
-    color: #1a2236;
-    font-size: 60px;
-    line-height: 48px;
-    margin: 57px 36px 34px 60px;
-  }
-
-  .my_div ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding-left: 60px;
-  }
-
-  .my_div ul li {
-    font-family: 'Poppins', sans-serif;
-    color: #1a2236;
-    font-size: 20px;
-    line-height: 16px;
-    font-weight: 300;
-    padding: 12px 20px 12px 20px;
-    border: 1px solid #1a2236;
-    background-color: #fff;
-    margin: 0 10px;
-  }
-
   .popup-descp {
     font-family: 'Poppins', sans-serif;
     width: 700px;
@@ -1111,12 +1123,6 @@ body {
     width: 246px;
     padding: 12px 20px 12px 22px;
     border: 1px solid #1a2236;
-  }
-
-  .buttPopup img {
-    width: 17px;
-    height: 17px;
-    margin: 0;
   }
 
   .popup-butt1 {
@@ -1145,6 +1151,14 @@ body {
     cursor: pointer;
   }
 
+  .Next-ele a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    color: #1a2236;
+  }
+
   .buttPopupflex:hover a {
     color: #fff;
     cursor: pointer;
@@ -1162,22 +1176,8 @@ body {
     width: 700px;
   }
 
-  .Next-ele a {
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 27px;
-    color: #1a2236;
-  }
-
   .Next-ele div {
     cursor: pointer;
-  }
-
-  .Next-ele img {
-    width: 20px;
-    height: 15px;
-    margin: 0;
   }
 
   .prev-one {

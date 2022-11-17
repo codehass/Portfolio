@@ -54,7 +54,6 @@ function popupProjects(project) {
               <div class ="buttPopupflex">
                 <a class ="popup-butt1" href="${projectsInfo.liveLink}" >See live</a>
                 <img  class ="popup-butt1img" src="imgs/Union (1).svg" />
-                <img  class ="popup-imghover" src="imgs/ic_link_teal.png" />
               </div>
               <div class ="buttPopupflex">
                 <a class ="popup-butt2" href="${projectsInfo.sourceLink}" >See source</a>
