@@ -148,6 +148,7 @@ function popupProjects(project) {
 const projects = document.querySelectorAll('.project-butt');
 projects.forEach(popupProjects);
 
+const email = document.querySelector('#email');
 const error = document.querySelector('.error');
 document.querySelector('.form').addEventListener('submit', (event) => {
   if (email.value.toLowerCase() !== email.value) {
@@ -155,14 +156,12 @@ document.querySelector('.form').addEventListener('submit', (event) => {
   }
 });
 
-document.querySelector('#email').addEventListener('input', () => {
+email.addEventListener('input', () => {
   if (email.value === email.value.toLowerCase()) {
-    console.log('yes lowerCse');
     email.className = 'valid';
     error.textContent = '';
     error.className = 'hidMsg';
   } else {
-    console.log('NO NO NO lowerCse');
     email.className = 'invalid';
     error.className = 'showMsg';
   }
