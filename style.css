@@ -4,6 +4,7 @@ html {
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
 body {
@@ -20,6 +21,113 @@ body {
     height: 74px;
     height: 568px;
   }
+
+  /* ******************** */
+
+  .my_div {
+    width: 320px;
+    height: 100vh;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 2;
+    overflow-y: scroll;
+  }
+
+  .desimg {
+    margin: 0 0 29px 20px;
+  }
+
+  .top-popup img {
+    position: absolute;
+    top: 19px;
+    right: 18px;
+  }
+
+  .top-popup p {
+    font-family: 'Poppins', sans-serif;
+    width: 264px;
+    font-weight: 700;
+    color: #1a2236;
+    font-size: 20px;
+    line-height: 16px;
+    margin: 57px 36px 23px 20px;
+  }
+
+  .my_div ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-left: 20px;
+  }
+
+  .my_div ul li {
+    font-family: 'Poppins', sans-serif;
+    color: #1a2236;
+    font-size: 10px;
+    font-weight: 300;
+    padding: 6px 10px;
+    border: 1px solid #1a2236;
+    background-color: #fff;
+    margin: 0 10px 18px 0;
+  }
+
+  .popup-descp {
+    font-family: 'Poppins', sans-serif;
+    width: 291px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0 auto 29px auto;
+  }
+
+  .buttPopup {
+    width: 246px;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin: 0 auto 20px auto;
+  }
+
+  .buttPopupflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #1a2236;
+    padding-right: 19px;
+  }
+
+  .buttPopupflex a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .popup-butt1 {
+    text-align: center;
+    display: block;
+    padding: 12px 0 12px 82px;
+  }
+
+  .popup-butt1img {
+    margin: 0;
+  }
+
+  .popup-butt2 {
+    text-align: center;
+    display: block;
+    padding: 12px 0 12px 66px;
+  }
+
+  .Next-ele {
+    display: none;
+  }
+
+  /* ******************** */
 
   .nav-mobil {
     width: 320px;
@@ -626,6 +734,25 @@ body {
     bottom: 0;
   }
 
+  .my_div ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-left: 60px;
+  }
+
+  .my_div ul li {
+    font-family: 'Poppins', sans-serif;
+    color: #1a2236;
+    font-size: 20px;
+    line-height: 16px;
+    font-weight: 300;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid #1a2236;
+    background-color: #fff;
+    margin: 0 10px;
+  }
+
   .tech div ul li {
     color: #fff;
     font-family: 'Poppins', sans-serif;
@@ -790,6 +917,16 @@ body {
     color: #fff;
   }
 
+  .top-popup p {
+    font-family: 'Poppins', sans-serif;
+    width: 726px;
+    font-weight: bold;
+    color: #1a2236;
+    font-size: 60px;
+    line-height: 48px;
+    margin: 57px 36px 34px 60px;
+  }
+
   .about .about-text p {
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
@@ -900,6 +1037,32 @@ body {
     width: 100%;
   }
 
+  .my_div img {
+    width: 1179px;
+    height: 857px;
+    margin: 40px 60px 68px 60px;
+  }
+
+  .top-popup img {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 100px;
+    right: 76px;
+  }
+
+  .buttPopup img {
+    width: 17px;
+    height: 17px;
+    margin: 0;
+  }
+
+  .Next-ele img {
+    width: 20px;
+    height: 15px;
+    margin: 0;
+  }
+
   .tech-grid .tech-4 img {
     width: 160px;
     height: 160px;
@@ -915,6 +1078,118 @@ body {
     right: 0;
     bottom: 0;
   }
+
+  /* ********************** */
+  .my_div {
+    width: 1440px;
+    height: 101%;
+    background-color: #1a2236;
+    position: fixed;
+    top: 0;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 2;
+    overflow-y: scroll;
+  }
+
+  .desk-popup {
+    background: #fff;
+    width: 1300px;
+    margin: 70px auto;
+    height: 5000px;
+  }
+
+  .popup-descp {
+    font-family: 'Poppins', sans-serif;
+    width: 700px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0 auto 40px auto;
+  }
+
+  .buttPopup {
+    display: flex;
+    justify-content: start;
+    margin-left: 300px;
+    gap: 30px;
+    margin-bottom: 120px;
+  }
+
+  .buttPopupflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 246px;
+    padding: 12px 20px 12px 22px;
+    border: 1px solid #1a2236;
+  }
+
+  .popup-butt1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1a2236;
+    text-align: center;
+    display: block;
+  }
+
+  .popup-butt2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1a2236;
+    text-align: center;
+    display: block;
+  }
+
+  .buttPopupflex:hover {
+    background-color: #1a2236;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .Next-ele a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    color: #1a2236;
+  }
+
+  .buttPopupflex:hover a {
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .fa-github {
+    width: 24px;
+    height: 18px;
+  }
+
+  .Next-ele {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 109px auto;
+    width: 700px;
+  }
+
+  .Next-ele div {
+    cursor: pointer;
+  }
+
+  .prev-one {
+    margin-left: 16px;
+  }
+
+  .next-one {
+    margin-right: 16px;
+  }
+
+  /* ********************** */
 
   .item2:hover .project-butt a {
     visibility: visible;
