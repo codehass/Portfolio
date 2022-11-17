@@ -281,7 +281,11 @@
               </p>
             </div>
 
-            <form action="https://formspree.io/f/xnqrodae" method="post">
+            <form
+              action="https://formspree.io/f/xnqrodae"
+              method="post"
+              class="form"
+            >
               <ul class="grid-container">
                 <li>
                   <label for="">Your name</label>
@@ -296,7 +300,13 @@
                 </li>
                 <li>
                   <label for="">Your email</label>
-                  <input type="email" placeholder="Your email" required />
+                  <input
+                    type="email"
+                    placeholder="Your email"
+                    required
+                    id="email"
+                  />
+                  <span class="error"></span>
                 </li>
                 <li class="message">
                   <label for="">Message</label>

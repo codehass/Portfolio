@@ -147,3 +147,22 @@ function popupProjects(project) {
 
 const projects = document.querySelectorAll('.project-butt');
 projects.forEach(popupProjects);
+
+const email = document.querySelector('#email');
+const error = document.querySelector('.error');
+document.querySelector('.form').addEventListener('submit', (event) => {
+  if (email.value.toLowerCase() !== email.value) {
+    event.preventDefault();
+  }
+});
+
+email.addEventListener('input', () => {
+  if (email.value === email.value.toLowerCase()) {
+    email.className = 'valid';
+    error.textContent = '';
+    error.className = 'hidMsg';
+  } else {
+    email.className = 'invalid';
+    error.className = 'showMsg';
+  }
+});

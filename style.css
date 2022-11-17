@@ -690,12 +690,26 @@ body {
     align-items: center;
   }
 
-  /* .item2 {
-    display: none;
-  } */
-
   .mg-butt-mob {
     color: red !important;
+  }
+
+  .showMsg::before {
+    content: 'The email shoud be in lower case';
+    position: absolute;
+    width: 256px;
+    height: 30px;
+    color: #fff;
+    background-color: #1a2236;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 9px;
+    margin-top: 5px;
+  }
+
+  .error.hidMsg {
+    display: none;
   }
 }
 
@@ -1555,6 +1569,24 @@ body {
   }
 
   .nav-img-bott {
+    display: none;
+  }
+
+  .showMsg::before {
+    content: 'The email shoud be in lower case';
+    position: absolute;
+    width: 276px;
+    height: 30px;
+    color: #fff;
+    background-color: #1a2236;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 9px;
+    margin-top: 5px;
+  }
+
+  .error.hidMsg {
     display: none;
   }
 }
