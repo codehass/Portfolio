@@ -1111,7 +1111,8 @@ body {
 
   .buttPopup {
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    margin-left: 300px;
     gap: 30px;
     margin-bottom: 120px;
   }

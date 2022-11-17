@@ -24,7 +24,7 @@ menuSections.forEach(myFunction);
 // **************Popup*******************
 const projectsInfo = [
   {
-    name: 'Project name goes here 1',
+    name: 'Project name goes he 1',
     img: 'imgs/Union close.png',
     tech: ['HTML/CSS', 'Ruby on Rais', 'JavaScript'],
     description:
@@ -33,7 +33,7 @@ const projectsInfo = [
     sourceLink: 'https://github.com/codehass/Portfolio/tree/mobil-menu',
   },
   {
-    name: 'Project name goes here 2',
+    name: 'Project name goes her 2',
     img: 'imgs/Union close.png',
     tech: ['HTML/CSS', 'Ruby on Rais', 'JavaScript'],
     description:
@@ -42,7 +42,7 @@ const projectsInfo = [
     sourceLink: 'https://github.com/codehass/Portfolio/tree/mobil-menu',
   },
   {
-    name: 'Project name goes here 3',
+    name: 'Project name goes her 3',
     img: 'imgs/Union close.png',
     tech: ['HTML/CSS', 'Ruby on Rais', 'JavaScript'],
     description:
@@ -51,7 +51,7 @@ const projectsInfo = [
     sourceLink: 'https://github.com/codehass/Portfolio/tree/mobil-menu',
   },
   {
-    name: 'Project name goes here 4',
+    name: 'Project name goes her 4',
     img: 'imgs/Union close.png',
     tech: ['HTML/CSS', 'Ruby on Rais', 'JavaScript'],
     description:
@@ -60,7 +60,7 @@ const projectsInfo = [
     sourceLink: 'https://github.com/codehass/Portfolio/tree/mobil-menu',
   },
   {
-    name: 'Project name goes here 5',
+    name: 'Project name goes her 5',
     img: 'imgs/Union close.png',
     tech: ['HTML/CSS', 'Ruby on Rais', 'JavaScript'],
     description:
@@ -69,7 +69,7 @@ const projectsInfo = [
     sourceLink: 'https://github.com/codehass/Portfolio/tree/mobil-menu',
   },
   {
-    name: 'Project name goes here 6',
+    name: 'Project name goes her 6',
     img: 'imgs/Union close.png',
     tech: ['HTML/CSS', 'Ruby on Rais', 'JavaScript'],
     description:
@@ -84,15 +84,15 @@ function popupProjects(project) {
     let index = 0;
     if (project.id == 'one') {
       index = 0;
-    } else if (project.id == 'two') {
+    } else if (project.id === 'two') {
       index = 1;
-    } else if (project.id == 'three') {
+    } else if (project.id === 'three') {
       index = 2;
-    } else if (project.id == 'four') {
+    } else if (project.id === 'four') {
       index = 3;
-    } else if (project.id == 'five') {
+    } else if (project.id === 'five') {
       index = 4;
-    } else if (project.id == 'six') {
+    } else if (project.id === 'six') {
       index = 5;
     }
     const newDiv = document.createElement('div');
