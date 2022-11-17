@@ -147,3 +147,5 @@ function popupProjects(project) {
 
 const projects = document.querySelectorAll('.project-butt');
 projects.forEach(popupProjects);
+
+console.log(document.querySelector('#email'));
