@@ -149,3 +149,14 @@ const projects = document.querySelectorAll('.project-butt');
 projects.forEach(popupProjects);
 
 console.log(document.querySelector('#email'));
+
+email.addEventListener("input", () => {
+  const isValid = email.value.length === 0 || emailRegExp.test(email.value);
+  if (isValid) {
+    email.className = "valid";
+    error.textContent = "";
+    error.className = "error";
+  } else {
+    email.className = "invalid";
+  }
+});
