@@ -22,7 +22,7 @@ const menuSections = document.querySelectorAll('.menu-sel');
 menuSections.forEach(myFunction);
 
 // **************Popup*******************
-let projectsInfo = {
+const projectsInfo = {
   name: 'Project name goes here',
   img: 'imgs/Union close.png',
   tech: ['HTML/CSS', 'Ruby on Rais', 'JavaScript'],
@@ -34,8 +34,8 @@ let projectsInfo = {
 
 function popupProjects(project) {
   project.addEventListener('click', () => {
-    const new_div = document.createElement('div');
-    new_div.innerHTML += `
+    const newDiv = document.createElement('div');
+    newDiv.innerHTML += `
         <div class ="desk-popup">
           <div class ="top-popup" >
           <img src="${projectsInfo.img}" class ="menuClose" id ="menuClose" />
@@ -75,12 +75,11 @@ function popupProjects(project) {
 
         </div>
     `;
-    new_div.setAttribute('class', 'my_div closepopup');
+    newDiv.setAttribute('class', 'my_div closepopup');
     const projects = document.querySelector('.projects');
-    projects.appendChild(new_div);
+    projects.appendChild(newDiv);
     document.querySelector('.menuClose').addEventListener('click', () => {
       document.querySelector('.my_div').remove();
-      console.log('clicked');
     });
   });
 }
