@@ -1082,7 +1082,7 @@ body {
   /* ********************** */
   .my_div {
     width: 1440px;
-    height: 101vh;
+    height: 101%;
     background-color: #1a2236;
     position: fixed;
     top: 0;
@@ -1097,7 +1097,7 @@ body {
     background: #fff;
     width: 1300px;
     margin: 70px auto;
-    height: 203vh;
+    height: 5000px;
   }
 
   .popup-descp {
