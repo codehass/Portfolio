@@ -149,7 +149,6 @@ const projects = document.querySelectorAll('.project-butt');
 projects.forEach(popupProjects);
 
 const form = document.querySelector('.form');
-const email = document.querySelector('#email');
 const error = document.querySelector('.error');
 const userName = document.querySelector('#name');
 const message = document.querySelector('#message');
