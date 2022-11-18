@@ -148,6 +148,7 @@ function popupProjects(project) {
 const projects = document.querySelectorAll('.project-butt');
 projects.forEach(popupProjects);
 
+const form = document.querySelector('.form');
 const email = document.querySelector('#email');
 const error = document.querySelector('.error');
 const userName = document.querySelector('#name');
@@ -184,7 +185,7 @@ window.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-document.querySelector('.form').addEventListener('input', () => {
+form.addEventListener('input', () => {
   const object = {};
   object.nameID = userName.value;
   object.mail = email.value;
