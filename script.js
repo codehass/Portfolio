@@ -148,8 +148,12 @@ function popupProjects(project) {
 const projects = document.querySelectorAll('.project-butt');
 projects.forEach(popupProjects);
 
+const form = document.querySelector('.form');
 const email = document.querySelector('#email');
 const error = document.querySelector('.error');
+const userName = document.querySelector('#name');
+const message = document.querySelector('#message');
+
 document.querySelector('.form').addEventListener('submit', (event) => {
   if (email.value.toLowerCase() !== email.value) {
     event.preventDefault();
@@ -165,4 +169,27 @@ email.addEventListener('input', () => {
     email.className = 'invalid';
     error.className = 'showMsg';
   }
+});
+
+window.addEventListener('DOMContentLoaded', () => {
+  const userInput = JSON.parse(localStorage.getItem('data'));
+
+  if (userInput !== null) {
+    userName.value = userInput.nameID;
+    email.value = userInput.mail;
+    message.value = userInput.msg;
+  } else {
+    userName.value = '';
+    email.value = '';
+    message.value = '';
+  }
+});
+
+form.addEventListener('input', () => {
+  const object = {};
+  object.nameID = userName.value;
+  object.mail = email.value;
+  object.msg = message.value;
+
+  localStorage.setItem('data', JSON.stringify(object));
 });
